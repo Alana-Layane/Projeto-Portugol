@@ -6,7 +6,7 @@ programa {
    idade = 16
    nome = "Alana"
    
-    escreva ("ol· mundo!!!")
+    escreva ("ol√° mundo!!!")
     escreva ("\n \n")
     escreva ("Exemplo: Nome:", nome, "\n Idade:", idade)
 
