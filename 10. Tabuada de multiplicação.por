@@ -1,11 +1,11 @@
 programa {
   funcao inicio() {
     /*Tabuada com comando 'para'
-    O algoritmo deve solicitar um número ao usuário e exibir a tabuada*/
+    O algoritmo deve solicitar um nÃºmero ao usuÃ¡rio e exibir a tabuada*/
 
     inteiro resultado, valor
 
-    escreva ("Digite um número para criar uma tabuada: \n")
+    escreva ("Digite um nÃºmero para criar uma tabuada: \n")
     leia (valor)
     
     para(inteiro a=1; a<=10;a++){
