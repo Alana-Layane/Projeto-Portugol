@@ -1,8 +1,8 @@
 programa {
   funcao inicio() {
-   //Estrutura de repetição for (para)
+   //Estrutura de repetiÃ§Ã£o for (para)
    /*
-   (outra forma de fazer comentário)
+   (outra forma de fazer comentÃ¡rio)
    incremento   /   decremento
    i=i+1=>i++       i=i-1=>i--
    */
