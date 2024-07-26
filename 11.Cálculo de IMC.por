@@ -1,6 +1,6 @@
 programa {
   funcao inicio() {
-    /* IMC = peso/altura² ou altura*altura */
+    /* IMC = peso/alturaÂ² ou altura*altura */
     real peso, altura, imc
    
     escreva("Ditgite seu peso: ")
@@ -9,7 +9,7 @@ programa {
     leia (altura)
 
     imc = peso / altura * altura
-    escreva("\nSeu IMC é: ", imc)
+    escreva("\nSeu IMC Ã©: ", imc)
 
     se(imc<18.5){
       escreva("\n Abaixo do peso")
