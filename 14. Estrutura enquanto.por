@@ -1,35 +1,35 @@
 programa {
   funcao inicio() {
-    //Exemplo de faça-enquanto
+    //Exemplo de faÃ§a-enquanto
     inteiro opcao
     faca{
       escreva("MENU DE ESCOLHA: \n")
-      escreva("1. Opção 1\n")
-      escreva("2. Opção 2\n")
-      escreva("3. Opção 3\n")
+      escreva("1. OpÃ§Ã£o 1\n")
+      escreva("2. OpÃ§Ã£o 2\n")
+      escreva("3. OpÃ§Ã£o 3\n")
       escreva("4. Sair\n")
-      escreva("Digite sua opção:\n")
+      escreva("Digite sua opÃ§Ã£o:\n")
       leia(opcao)
 
       escolha(opcao){
         caso 1: 
         limpa()
-          escreva("Você escolheu a opção 1. \n")
+          escreva("VocÃª escolheu a opÃ§Ã£o 1. \n")
           pare
         caso 2: 
         limpa()
-          escreva("Você escolheu a opção 2. \n")
+          escreva("VocÃª escolheu a opÃ§Ã£o 2. \n")
           pare
         caso 3: 
         limpa()
-          escreva("Você escolheu a opção 3. \n")
+          escreva("VocÃª escolheu a opÃ§Ã£o 3. \n")
           pare
         caso 4: 
         limpa()
           escreva("Finalizando... \n")
           pare
         caso contrario: 
-          escreva("Opção inválida. Tente novamente. \n")
+          escreva("OpÃ§Ã£o invÃ¡lida. Tente novamente. \n")
       }
     } enquanto (opcao !=4)
   }
