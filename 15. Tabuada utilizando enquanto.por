@@ -5,17 +5,17 @@ programa {
     faca{
       escreva("\nMENU DE ESCOLHA DE CONTAS: \n")
       escreva("1. Soma\n")
-      escreva("2. SubtraÁ„o\n")
-      escreva("3. MultiplicaÁ„o\n")
-      escreva("4. Divis„o\n")
-      escreva("5. Resto da divis„o\n")
+      escreva("2. Subtra√ß√£o\n")
+      escreva("3. Multiplica√ß√£o\n")
+      escreva("4. Divis√£o\n")
+      escreva("5. Resto da divis√£o\n")
       escreva("6. Sair\n\n")
 
       escreva("Digite o valor 1: ")
       leia(numero1)
       escreva("Digite o valor 2: ")
       leia(numero2)
-      escreva("Digite sua opÁ„o: ")
+      escreva("Digite sua op√ß√£o: ")
       leia(opcao)
 
       escolha(opcao){
@@ -38,7 +38,7 @@ programa {
           escreva("Finalizando... \n")
           pare
         caso contrario: 
-          escreva("OpÁ„o inv·lida. Tente novamente. \n")
+          escreva("Op√ß√£o inv√°lida. Tente novamente. \n")
       }
     } enquanto (opcao !=6)
   }
