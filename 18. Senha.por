@@ -1,6 +1,6 @@
 programa {
   funcao inicio() {
-    /*Implememnte um programa que verifique se uma senha inserida pelo usu·rio È v·lida (senha = 12345)*/
+    /*Implememnte um programa que verifique se uma senha inserida pelo usu√°rio √© v√°lida (senha = 12345)*/
     inteiro senha, valido
     valido=12345
     
