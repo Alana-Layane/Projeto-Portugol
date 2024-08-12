@@ -1,6 +1,6 @@
 programa {
   funcao inicio() {
-    /*Crie um programa que determine se um ano È bissexto (DivisÌvel por 4, mas n„o por 100 - exceteo se for por 400) */
+    /*Crie um programa que determine se um ano √© bissexto (Divis√≠vel por 4, mas n√£o por 100 - exceteo se for por 400) */
 
     inteiro ano
 
@@ -10,7 +10,7 @@ programa {
     se(ano%4==0 e ano%100!=0 ou ano%400==0)
       escreva ("Ano bissexto.")
     senao
-      escreva ("N„o È um ano bissexto.")
+      escreva ("N√£o √© um ano bissexto.")
 
       
   }
